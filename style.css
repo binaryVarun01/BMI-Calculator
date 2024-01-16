@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: darkgray;
+}
+
+#heading
+{
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.container
+{
+    margin-top: 107px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#height
+{
+    margin:18px;
+}
+
+#weight
+{
+    margin:18px;
+}
+
+#btn
+{
+    margin: 0px 75px;
+    padding: 7px;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+#btn:hover
+{
+    background-color: white;
+    color: black;
+}
+
+#result
+{
+    margin: 27px 126px;
+}
